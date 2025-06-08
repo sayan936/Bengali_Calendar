@@ -124,7 +124,7 @@ fun DayCell(day: Int, month: Int, year: Int, isToday: Boolean) {
             )
         )
         BasicText(
-            text = "${bengaliDay}",
+            text = "${bengaliDay},
             style = MaterialTheme.typography.bodySmall.copy(
                 color = if (isToday) Color.Red else Color.DarkGray
             )
